@@ -1,0 +1,31 @@
+##conexão por spring data stax data cassandra ##
+
+
+spring:
+    data:
+        cassandra:
+         keyspace-name: main
+         username: hrpoZjGXcQiTlWihsnZjOfuP
+         password: JESZpo1+PICimnqGPZGGIDNzNsr69kWYghlnfyYH6H9D69A,vaKXN6koP_Ojk7C7lGk4DQO3yc7dPvqeyt,117D8KD6q7Z4iQaahCFMSDUZwBNGZ9pWvCUdyR7T_4Onh
+         schema-action: create-if-not-exists
+         request:
+            timeout: 10s
+         connection:
+            connect-timeout: 10s
+            init-query-timeout: 10s
+
+datastax.astra:
+    secure-connect-bundle: secure-connect.zip
+                
+
+astra.db:
+    id: ca066845-64df-4f56-b389-58df2d87f870
+    region: europe-west1
+    keyspace: main
+    application.token: AstraCS:hrpoZjGXcQiTlWihsnZjOfuP:6fb6ab3ff931e906f5371959b6ce12988ec5253d1e0fe290fa6d7e93acdb329c
+
+
+
+
+
+
